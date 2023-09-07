@@ -1,0 +1,352 @@
+body{
+	background: #EAEDED;
+	font-family: "Trebuchet MS";
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+header{
+	text-align: center;
+	background: none;
+	padding: 10px;
+	margin-bottom: -5px;
+}
+
+header .title{
+	padding: 5px 60px;
+	background: #239B56;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-top: 10px solid #F1C40F;
+	border-left: 10px solid #F1C40F;
+	border-right: 10px solid #F1C40F;
+	box-shadow: 0px 5px 10px 0px #9C640C;
+	
+	color: #fff;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.wrapper{
+	margin: 0 auto;
+	max-width: 1228px;
+	color: #2C3E50;
+	min-height: 618px;
+	background: none;
+	margin-top: 0px;
+
+	}
+
+.bulletinWrapper{
+	position: relative;
+	z-index: 2;
+
+	width: 100%;		
+	min-height: 450px;
+	background: #229954;
+		box-shadow: inset 0px 0px 30px #9C640C;
+		-moz-box-shadow:    inset 0px 0px 30px #9C640C;
+		-webkit-box-shadow: inset 0px 0px 30px #9C640C;
+	border: 40px solid #F1C40F;
+	margin: 0px -40px;
+	font-family: "Comic Sans MS";
+}
+
+.bulletinWrapper ul.menu{
+	list-style-type: none;
+}
+
+.bulletinWrapper ul.menu a{
+	color: #000;
+}
+
+.bulletinWrapper ul.menu li .circle{
+	margin-top: -30px;
+	margin-left: 100px;
+}
+
+.bulletinWrapper ul.menu li{
+	width: 20%;
+	height: 145px;
+	padding: 35px 5px 0px;
+	background: #AED6F1;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	float: left;
+	
+	color: #000;
+	font-size: 1em;
+	text-shadow: 1px 0.2px 4px #e1e1e1;
+	box-shadow: 0px 1px 5px 0px #145A32;
+}
+
+.bulletinWrapper ul.menu li.first{
+	background: #F9E79F;
+	transform: rotate(1deg);
+}
+
+.bulletinWrapper ul.menu li.first .circle{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #E74C3C;
+	color: #000;
+	box-shadow: 0px 1px 5px 0px #145A32;
+	border-radius: 50px;
+}
+
+.bulletinWrapper ul.menu li.second{
+	background: #AED6F1;
+	transform: rotate(-1deg);
+}
+
+.bulletinWrapper ul.menu li.second .circle{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #1D8348;
+	color: #000;
+	box-shadow: 0px 1px 5px 0px #145A32;
+	border-radius: 50px;
+}
+
+
+.bulletinWrapper ul.menu li.third{
+	background: #F5B7B1;
+	transform: rotate(-1deg);
+}
+
+.bulletinWrapper ul.menu li.third .circle{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #85C1E9;
+	color: #000;
+	box-shadow: 0px 1px 5px 0px #145A32;
+	border-radius: 50px;
+}
+
+.bulletinWrapper ul.menu li.fourth{
+	background: #82E0AA;
+	transform: rotate(-1deg);
+}
+
+.bulletinWrapper ul.menu li.fourth .circle{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #F7DC6F;
+	color: #000;
+	box-shadow: 0px 1px 5px 0px #145A32;
+	border-radius: 50px;
+}
+
+.bulletinWrapper ul.content{
+	color: #fff;
+	list-style-type: none;
+	padding: 30px;
+	background: none;
+	width: 70%;
+	margin-left: 20px;
+}
+
+.bulletinWrapper ul.content li.title{
+	text-align: center;
+}
+
+.bulletinWrapper ul.content li.contents{
+	margin-top: 10px;
+	text-align: justify;
+    text-indent: 50px;
+}
+
+.bulletinWrapper ul.content li.contents ul li{
+	list-style-type: bullet;
+	text-indent: 0px;
+	margin-top: 5px;
+}
+
+.bulletinWrapper ul.ref{
+	color: #fff;
+	list-style-type: none;
+}
+
+.bulletinWrapper ul.ref li.title{
+	margin-bottom: 10px;
+}
+
+.illustration{
+	position: relative;
+	background: #b2e575;
+	width: 18%;
+	float: right;
+	margin-right: 45px;
+	margin-top: 40px;
+	padding: 10px;
+	border: 1px solid #6d9141;
+	border-radius: 5px;
+}
+
+.illustration span{
+
+}
+
+.box-object-1{
+	text-indent: 0px;
+	color: #000;
+	min-width: 100px;
+	max-width: 400px;
+	background: #e8f2b0;
+}
+
+.box-object-2{
+	text-indent: 0px;
+	color: #000;
+	min-width: 100px;
+	max-width: 400px;
+	background: #e8a18f;
+}
+
+.box-object-3{
+	text-indent: 0px;
+	color: #000;
+	min-width: 100px;
+	max-width: 400px;
+	background: #7cd7dd;
+}
+
+.box-object-4{
+	text-indent: 0px;
+	color: #000;
+	min-width: 100px;
+	max-width: 400px;
+	background: #df75e5;
+}
+
+.box-object-5{
+	text-indent: 0px;
+	color: #000;
+	background: #77bff9;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #33536d;
+}
+
+.leftArrow{
+	position: absolute;
+	z-index: 3;
+	margin-top: 200px;
+	margin-left: -10px;
+	background: none;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid #fff;
+	border-bottom: 20px solid transparent;
+	border-top: 20px solid transparent;
+}
+
+.rightArrow{
+	right: 0;
+	position: absolute;
+	z-index: 3;
+	margin-top: 200px;
+	margin-left: -10px;
+	background: none;
+	width: 0;
+	height: 0;
+	border-left: 20px solid #fff;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-top: 20px solid transparent;
+}
+
+.referencesWrapper{
+	width: 100%;
+	padding-top: 10px;
+	min-height: 40px;
+	background: none;
+		/*box-shadow: inset 0px 0px 40px #9C640C;
+		-moz-box-shadow:    inset 0px 0px 40px #9C640C;
+		-webkit-box-shadow: inset 0px 0px 40px #9C640C;
+	transform: perspective(90px) rotateX(1deg);*/
+}
+
+.refTitleBlock{
+	margin: 0px auto;
+	padding: 10px;
+	width: 92%;
+	background: #B9770E;
+		box-shadow: inset 0px 0px 40px #9C640C;
+		-moz-box-shadow:    inset 0px 0px 40px #9C640C;
+		-webkit-box-shadow: inset 0px 0px 40px #9C640C;
+	color: #F9E79F;
+	text-shadow: 1px 0.2px 4px #7E5109;
+}
+
+.refShelve{
+	margin: 0px auto;
+	height: 100px;
+	padding: 10px;
+	width: 90%;
+	background: #F1C40F;
+	padding: 10px;
+		box-shadow: inset 0px 0px 40px #9C640C;
+		-moz-box-shadow:    inset 0px 0px 40px #9C640C;
+		-webkit-box-shadow: inset 0px 0px 40px #9C640C;
+}
+
+.refShelve ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.refShelve ul li{
+	float: left;
+	margin-top: 35px;
+	margin-right: -60px;
+	padding: 10px;
+	width: 85px;
+	transform: rotate(-90deg);
+	background: #283747;
+	color: #fff;
+	border-radius: 5px;
+	border-right: 5px solid #F4D03F;
+	
+	
+		box-shadow: inset 0px 0px 20px #566573;
+		-moz-box-shadow:    inset 0px 0px 20px #566573;
+		-webkit-box-shadow: inset 0px 0px 20px #566573;
+}
+
+.refShelve ul li.refTilt_1{
+	margin-left: 20px;
+	margin-right: -30px;
+	transform: rotate(-120deg);
+}
+
+
+.refShelve ul li span{
+	color: #fff;
+	background: red;
+	width: 10px;
+	height: 10px;
+	padding: 0px 5px;
+	margin-right: 5px;
+	border-radius: 50px;
+}
+
+.refShelveLine{
+	margin: 0px auto;
+	width: 92%;
+	height: 10px;
+	background: #FCF3CF;
+		box-shadow: inset 0px 0px 20px #F1C40F;
+		-moz-box-shadow:    inset 0px 0px 20px #F1C40F;
+		-webkit-box-shadow: inset 0px 0px 20px #F1C40F;
+}

@@ -1,0 +1,96 @@
+<!--Created by Carl Angelo G. Angcana-->
+<!--on August 24, 2018 for Exercise 1 in IT 210 EF Web Applications Programming.-->
+
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+ <meta charset="utf-8"/>
+ <title>Exercise 1</title>
+ <link rel="stylesheet" type="text/css" href="layoutCode/main.css">
+</head>
+<body>
+<div class="wrapper">
+<header>
+	<span class="title">
+		T H E &nbsp; G R A D U A T E &nbsp; S C H O O L &nbsp; O F &nbsp; U P L B &nbsp; I C S
+	</span>
+</header>
+
+<div class="bulletinWrapper">
+	<a href="httpReq.html"><span class="leftArrow"></span></a>
+	<a href="httpHeaders.html"><span class="rightArrow"></span></a>
+	
+	<aside class="illustration">
+		<span>Status Line: The first line is called the status line, followed by optional response header(s). Take this example:<br/><br/>
+		HTTP/1.1 200 OK<br/>
+		HTTP/1.0 404 Not Found<br/>
+		HTTP/1.1 403 Forbidden<br/>
+		</span>
+		<hr/>
+		Response Headers: The response headers are in the form name: value pairs:
+		Take this example:<br/><br/>
+		
+		Content-Type: text/html<br/>
+		Content-Length: 35<br/>
+		Connection: Keep-Alive<br/>
+		Keep-Alive: timeout=15, max=100<br/>
+	</aside>
+
+	<ul class="content">
+	<li class="title">HTTP Response</li>
+	<li class="contents">
+	After receiving and interpreting a request message, a server responds with an HTTP response message.
+	<br/><br/>
+		<div class="box-object-1">HTTP/1.1 200 OK</div>
+		<div class="box-object-2">
+		Date: Mon, 3 Sep 2018 01:11:12 GMT<br/>
+		Server: Apache/1.3.29 (Win32)<br/>
+		Last-Modified: Sat, 07 Feb 2017<br/>
+		ETag: "0-23-4024c3a5"<br/>
+		Accept-Ranges: bytes<br/>
+		Content-Lengt: 35<br/>
+		Connection: close<br/>
+		Content-Type: text/html<br/>
+		</div>
+		<div class="box-object-3"><br/></div>
+		<div class="box-object-4">
+		&#60;h1&#62; My Home Page &#60;&#47;h1&#62;
+		</div>
+		<br/>
+		Legends:<br/>		
+		Beige: Status Line <br/>
+		Pink: Response Headers <br/>
+		Blue: A blank line that separates header <br/>
+		Magenta: Response Message Body<br/>
+	</li>
+	
+	</ul>
+	
+</div>
+<div class="referencesWrapper">
+	<div class="refTitleBlock">References</div>
+	<div class="refShelve">
+	<ul>
+		<li><span>1</span><a href="ref/http.html">HTTP</a></li>
+		<li><span>2</span><a href="ref/https.html">HTTPS</a></li>
+		<li class="refTilt_1"><span>3</span><a href="ref/httpReq.html">HTTP Rq</a></li>
+		<li><span>4</span><a href="ref/httpReq.html">HTTP Rs</a></li>
+		<li><span>5</span><a href="ref/httpHeaders.html">Headers</a></li>
+		<li><span>6</span><a href="ref/httpStatusCodes.html">StatCds</a></li>
+	</ul>
+	</div>
+	<div class="refShelveLine"></div>
+	<div class="refShelve">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="https://validator.w3.org" target="_blank">Validator</a></li>
+		<li><a href="http://uplb.edu.ph/" target="_blank">UPLB</a></li>
+	</ul>
+	</div>
+	<div class="refShelveLine"></div>
+	<div class="refTitleBlock"></div>
+</div>
+
+</div>
+</body>
+</html>
